@@ -1,0 +1,2146 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@300;400;700;900&display=swap');
+video{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+body {
+  font-family: 'Suwannaphum', serif;
+  color:#000000;
+  font-size:16px;
+  background-color:#f4f7ff;
+}
+ul,ol{
+  list-style-type: none;
+}
+h2{
+  font-family: 'Exo 2', sans-serif;
+  font-weight:800;
+}
+h3{
+  font-family: 'Exo 2', sans-serif;
+  font-weight:600;
+}
+nav.navigation{
+  background:#0c2a39 !important;
+  z-index: 1;
+ padding-top: 20px !important;
+ padding-bottom: 20px !important;
+}
+a.navbar-brand{
+z-index: 111;
+position: relative;
+}
+a.navbar-brand img{
+  width:140px;
+}
+nav.navigation a.nav-link.btn-join-now{
+  border-color:#a5c1ff !important;
+  background-color: transparent !important;
+  margin-top:0px;
+  padding:7px 40px !important;
+  margin-right:25px !important;
+}
+a.nav-link.social-icon{
+  background-color:#061d28;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: #ffffff;
+  text-align:center;
+}
+a.nav-link{
+  margin: 0px 15px;
+}
+.hero-section{
+  background-color:#121418;
+  overflow:hidden;
+  position: relative;
+  height: 100vh;
+}
+.banner-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+    z-index: 111;
+}
+.banner-content1{
+    position: absolute;
+  bottom:7%;
+  left: 50%;
+  transform:translatex(-50%);
+  text-align: center;
+  z-index: 111;
+}
+.bg-1{
+  background-color:#121418;
+}
+.section-padding{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.custom-margin-top{
+margin-top: -160px !important;
+    margin-bottom: -140px !important;
+}
+#mainSVG{
+position: absolute;
+top: -200px;
+}
+.para-content{
+  display: flex;
+  align-items: start;
+  justify-content:space-between;
+  padding-left:50px;
+  position: relative;
+}
+.bar-icon{
+  width:50px;
+}
+.bar-icon2{
+        position: absolute;
+    right: -60px;
+    top: -50px;
+}
+.para-content .bar-icon1{
+    width: 50px;
+    flex: 0 0 50px;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 0px;
+    transform-origin: top left;
+    top: 30px;
+}
+.bar-icon3{
+        position: absolute;
+    right:200px;
+    bottom:-60px;
+        transform: rotate(180deg);
+}
+.bar-icon4{
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+    transform: rotate(180deg);
+}
+.bar-icon5{
+    position: absolute;
+    left:-100px;
+    top:50px;
+    transform: rotate(90deg);
+}
+.bar-icon6{
+    position: absolute;
+    right:-100px;
+    bottom:80px;
+   transform: rotate(270deg);
+}
+.bar-icon7{
+    position: absolute;
+    right:0px;
+    top:-40px;
+       transform: rotate(180deg);
+}
+.bar-icon8{
+    position: absolute;
+    right: 150px;
+    top:-20px;
+    transform: rotate(45deg);
+}
+.bar-icon9{
+    position: absolute;
+    left:80px;
+    top:20px;
+    transform: rotate(45deg);
+}
+.mb-10{
+  margin-bottom:120px;
+}
+.bar-icon10{
+    position: absolute;
+    left:150px;
+    top: -30px;
+    transform: rotate(300deg);
+}
+.bar-icon11{
+    position: absolute;
+    right:150px;
+    top:0px;
+    transform: rotate(300deg);
+}
+.bar-icon12{
+   position: absolute;
+    right: 100px;
+    top: -120px;
+    transform: rotate(180deg);
+}
+.bar-icon13{
+      position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    left: 200px
+}
+.bar-icon14{
+       position: absolute;
+    right: 100px;
+    top: 80px;
+    transform: rotate(45deg);
+}
+a.btn-join-now{
+      color: #fff;
+    text-decoration: none;
+    border: 1.5px solid #324670;
+    padding: 12px 50px 8px;
+    border-radius: 10px;
+    margin-top:48px;
+    display: inline-block;
+}
+a.btn-join-now.bg-black{
+  background:#171717;
+}
+.btn-join-now-m{
+ margin-top:30px !important;
+}
+a.btn-join-now span{
+  display: block;
+  font-size: 14px;
+}
+.owl-carousel.owl-carousel1{
+padding: 0px 60px;
+margin-top:10px;
+position: static;
+}
+.owl-carousel.owl-drag .owl-item.active.center .custom-item{
+  margin-top:30px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    height:80px;
+    width:80px;
+    background: #d7dde2;
+    cursor: pointer;
+    transition: margin 350ms ease-in-out;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.owl-prev span, .owl-next span{
+ display: none;
+}
+.owl-prev::after,.owl-next::after{
+    content: "";
+    display: block;
+    width:40px;
+    height:40px;
+    margin-top:3px;
+    margin-left: 25px;
+    transform: rotate(45deg);
+    border:10px solid #b4c6d5;
+}
+.owl-prev::after{
+margin-left: 20px;
+transform: rotate(225deg);
+}
+.owl-next::after{
+margin-left: 20px;
+transform: rotate(45deg);
+}
+.owl-prev{
+  left:-24px;
+}
+.owl-prev::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.owl-next{
+  right:-24px;
+}
+.owl-next::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.owl-prev:hover {
+    margin-left: -12px;
+}
+.owl-next:hover{
+    margin-right: -12px;
+}
+.custom-item{
+  padding:40px;
+}
+.custom-item .sub-item{
+    background-color: rgb(234, 239, 250);
+    border: 1.5px solid #213b54;
+    padding:25px 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px #dbe2f2;
+}
+.custom-item .sub-item p{
+  height:260px;
+    overflow-y: scroll;
+}
+/* width */
+.custom-item .sub-item p::-webkit-scrollbar {
+  width:12px;
+}
+
+/* Track */
+.custom-item .sub-item p::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+ 
+/* Handle */
+.custom-item .sub-item p::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+}
+
+/* Handle on hover */
+.custom-item .sub-item p:hover::-webkit-scrollbar-thumb{
+  background-color:#213b54; 
+}
+.custom-item h3{
+ font-size: 20px;
+ min-height: 48px;
+}
+.custom-item p{
+
+}
+/*block chain*/
+.blockchain.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-section{
+  padding-bottom: 100px;
+}
+.join-item{
+  display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    border-radius:40px;
+    background-color:#eaeffa;
+    box-shadow: 15px 15px 10px #dbe2f2;
+}
+
+.join-item .number{
+width: 130px;
+    font-size: 80px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    flex: 0 0 130px;
+    text-align: center;
+    border-radius: 40px;
+    color: rgb(77, 110, 147);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1.5px solid #213b54;
+}
+.join-item .text{
+  border: 1.5px solid #213b54;
+  padding:12px 15px 12px 15px;
+  padding-left:60px;
+  border-left: 0px;
+  margin-left: -37px;
+border-radius: 0px 40px 40px 0px;
+}
+.footer-logo{
+  width:260px;
+}
+
+.footer{
+text-align: center;
+background:#d6dceb;
+padding:15px 15px;
+border-top:1.5px solid black;
+ font-family: 'Exo 2', sans-serif;
+}
+.footer .p1{
+font-size:18px;
+font-weight: 700;
+margin-bottom:5px !important;
+}
+.footer .p2{
+  color:#474747;
+font-size:14px;
+font-weight: 700;
+margin-bottom:0px !important;
+}
+
+#redblocks > * {
+  transform: translate3d(160px, -93px, 0);
+  -webkit-animation: moveblocks 4s 1s ease infinite;
+          animation: moveblocks 4s 1s ease infinite;
+}
+
+@-webkit-keyframes moveblocks {
+  0% {
+    transform: translate3d(160px, -93px, 0);
+  }
+  50%, 100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes moveblocks {
+  0% {
+    transform: translate3d(160px, -93px, 0);
+  }
+  50%, 100% {
+    transform: translate(0);
+  }
+}
+#firstBlock {
+  transform: translate3d(160px, -93px, 0);
+  -webkit-animation: firstBlock 4s 1s ease infinite;
+          animation: firstBlock 4s 1s ease infinite;
+}
+
+#blockdis {
+  -webkit-animation: blockdis 4s 1s ease infinite;
+          animation: blockdis 4s 1s ease infinite;
+}
+
+@-webkit-keyframes blockdis {
+  30% {
+    opacity: 1;
+  }
+  40%, 100% {
+    opacity: 0;
+    transform: translate3d(-160px, 93px, 0);
+  }
+}
+
+@keyframes blockdis {
+  30% {
+    opacity: 1;
+  }
+  40%, 100% {
+    opacity: 0;
+    transform: translate3d(-160px, 93px, 0);
+  }
+}
+@-webkit-keyframes firstBlock {
+  0%, 15% {
+    opacity: 0;
+  }
+  40%, 100% {
+    opacity: 1;
+  }
+}
+@keyframes firstBlock {
+  0%, 15% {
+    opacity: 0;
+  }
+  40%, 100% {
+    opacity: 1;
+  }
+}
+#redblocksparticles g:nth-child(1) polygon {
+  opacity: 0.35;
+  -webkit-animation: glow 4s 1s ease infinite;
+          animation: glow 4s 1s ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) polygon {
+  opacity: 0.35;
+  -webkit-animation: glow 4s 1s ease infinite;
+          animation: glow 4s 1s ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) polygon {
+  opacity: 0.35;
+  -webkit-animation: glow 4s 1s ease infinite;
+          animation: glow 4s 1s ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) polygon {
+  opacity: 0.35;
+  -webkit-animation: glow 4s 1s ease infinite;
+          animation: glow 4s 1s ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(1) {
+  -webkit-animation: dots 4s 1050ms ease infinite;
+          animation: dots 4s 1050ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(1) {
+  -webkit-animation: dots 4s 1050ms ease infinite;
+          animation: dots 4s 1050ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(1) {
+  -webkit-animation: dots 4s 1050ms ease infinite;
+          animation: dots 4s 1050ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(1) {
+  -webkit-animation: dots 4s 1050ms ease infinite;
+          animation: dots 4s 1050ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(2) {
+  -webkit-animation: dots 4s 1100ms ease infinite;
+          animation: dots 4s 1100ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(2) {
+  -webkit-animation: dots 4s 1100ms ease infinite;
+          animation: dots 4s 1100ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(2) {
+  -webkit-animation: dots 4s 1100ms ease infinite;
+          animation: dots 4s 1100ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(2) {
+  -webkit-animation: dots 4s 1100ms ease infinite;
+          animation: dots 4s 1100ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(3) {
+  -webkit-animation: dots 4s 1150ms ease infinite;
+          animation: dots 4s 1150ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(3) {
+  -webkit-animation: dots 4s 1150ms ease infinite;
+          animation: dots 4s 1150ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(3) {
+  -webkit-animation: dots 4s 1150ms ease infinite;
+          animation: dots 4s 1150ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(3) {
+  -webkit-animation: dots 4s 1150ms ease infinite;
+          animation: dots 4s 1150ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(4) {
+  -webkit-animation: dots 4s 1200ms ease infinite;
+          animation: dots 4s 1200ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(4) {
+  -webkit-animation: dots 4s 1200ms ease infinite;
+          animation: dots 4s 1200ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(4) {
+  -webkit-animation: dots 4s 1200ms ease infinite;
+          animation: dots 4s 1200ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(4) {
+  -webkit-animation: dots 4s 1200ms ease infinite;
+          animation: dots 4s 1200ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(5) {
+  -webkit-animation: dots 4s 1250ms ease infinite;
+          animation: dots 4s 1250ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(5) {
+  -webkit-animation: dots 4s 1250ms ease infinite;
+          animation: dots 4s 1250ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(5) {
+  -webkit-animation: dots 4s 1250ms ease infinite;
+          animation: dots 4s 1250ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(5) {
+  -webkit-animation: dots 4s 1250ms ease infinite;
+          animation: dots 4s 1250ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(6) {
+  -webkit-animation: dots 4s 1300ms ease infinite;
+          animation: dots 4s 1300ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(6) {
+  -webkit-animation: dots 4s 1300ms ease infinite;
+          animation: dots 4s 1300ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(6) {
+  -webkit-animation: dots 4s 1300ms ease infinite;
+          animation: dots 4s 1300ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(6) {
+  -webkit-animation: dots 4s 1300ms ease infinite;
+          animation: dots 4s 1300ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(7) {
+  -webkit-animation: dots 4s 1350ms ease infinite;
+          animation: dots 4s 1350ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(7) {
+  -webkit-animation: dots 4s 1350ms ease infinite;
+          animation: dots 4s 1350ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(7) {
+  -webkit-animation: dots 4s 1350ms ease infinite;
+          animation: dots 4s 1350ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(7) {
+  -webkit-animation: dots 4s 1350ms ease infinite;
+          animation: dots 4s 1350ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(8) {
+  -webkit-animation: dots 4s 1400ms ease infinite;
+          animation: dots 4s 1400ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(8) {
+  -webkit-animation: dots 4s 1400ms ease infinite;
+          animation: dots 4s 1400ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(8) {
+  -webkit-animation: dots 4s 1400ms ease infinite;
+          animation: dots 4s 1400ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(8) {
+  -webkit-animation: dots 4s 1400ms ease infinite;
+          animation: dots 4s 1400ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(9) {
+  -webkit-animation: dots 4s 1450ms ease infinite;
+          animation: dots 4s 1450ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(9) {
+  -webkit-animation: dots 4s 1450ms ease infinite;
+          animation: dots 4s 1450ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(9) {
+  -webkit-animation: dots 4s 1450ms ease infinite;
+          animation: dots 4s 1450ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(9) {
+  -webkit-animation: dots 4s 1450ms ease infinite;
+          animation: dots 4s 1450ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(10) {
+  -webkit-animation: dots 4s 1500ms ease infinite;
+          animation: dots 4s 1500ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(10) {
+  -webkit-animation: dots 4s 1500ms ease infinite;
+          animation: dots 4s 1500ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(10) {
+  -webkit-animation: dots 4s 1500ms ease infinite;
+          animation: dots 4s 1500ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(10) {
+  -webkit-animation: dots 4s 1500ms ease infinite;
+          animation: dots 4s 1500ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(11) {
+  -webkit-animation: dots 4s 1550ms ease infinite;
+          animation: dots 4s 1550ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(11) {
+  -webkit-animation: dots 4s 1550ms ease infinite;
+          animation: dots 4s 1550ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(11) {
+  -webkit-animation: dots 4s 1550ms ease infinite;
+          animation: dots 4s 1550ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(11) {
+  -webkit-animation: dots 4s 1550ms ease infinite;
+          animation: dots 4s 1550ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(12) {
+  -webkit-animation: dots 4s 1600ms ease infinite;
+          animation: dots 4s 1600ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(12) {
+  -webkit-animation: dots 4s 1600ms ease infinite;
+          animation: dots 4s 1600ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(12) {
+  -webkit-animation: dots 4s 1600ms ease infinite;
+          animation: dots 4s 1600ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(12) {
+  -webkit-animation: dots 4s 1600ms ease infinite;
+          animation: dots 4s 1600ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(13) {
+  -webkit-animation: dots 4s 1650ms ease infinite;
+          animation: dots 4s 1650ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(13) {
+  -webkit-animation: dots 4s 1650ms ease infinite;
+          animation: dots 4s 1650ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(13) {
+  -webkit-animation: dots 4s 1650ms ease infinite;
+          animation: dots 4s 1650ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(13) {
+  -webkit-animation: dots 4s 1650ms ease infinite;
+          animation: dots 4s 1650ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(14) {
+  -webkit-animation: dots 4s 1700ms ease infinite;
+          animation: dots 4s 1700ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(14) {
+  -webkit-animation: dots 4s 1700ms ease infinite;
+          animation: dots 4s 1700ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(14) {
+  -webkit-animation: dots 4s 1700ms ease infinite;
+          animation: dots 4s 1700ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(14) {
+  -webkit-animation: dots 4s 1700ms ease infinite;
+          animation: dots 4s 1700ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(15) {
+  -webkit-animation: dots 4s 1750ms ease infinite;
+          animation: dots 4s 1750ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(15) {
+  -webkit-animation: dots 4s 1750ms ease infinite;
+          animation: dots 4s 1750ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(15) {
+  -webkit-animation: dots 4s 1750ms ease infinite;
+          animation: dots 4s 1750ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(15) {
+  -webkit-animation: dots 4s 1750ms ease infinite;
+          animation: dots 4s 1750ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(16) {
+  -webkit-animation: dots 4s 1800ms ease infinite;
+          animation: dots 4s 1800ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(16) {
+  -webkit-animation: dots 4s 1800ms ease infinite;
+          animation: dots 4s 1800ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(16) {
+  -webkit-animation: dots 4s 1800ms ease infinite;
+          animation: dots 4s 1800ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(16) {
+  -webkit-animation: dots 4s 1800ms ease infinite;
+          animation: dots 4s 1800ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(17) {
+  -webkit-animation: dots 4s 1850ms ease infinite;
+          animation: dots 4s 1850ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(17) {
+  -webkit-animation: dots 4s 1850ms ease infinite;
+          animation: dots 4s 1850ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(17) {
+  -webkit-animation: dots 4s 1850ms ease infinite;
+          animation: dots 4s 1850ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(17) {
+  -webkit-animation: dots 4s 1850ms ease infinite;
+          animation: dots 4s 1850ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(18) {
+  -webkit-animation: dots 4s 1900ms ease infinite;
+          animation: dots 4s 1900ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(18) {
+  -webkit-animation: dots 4s 1900ms ease infinite;
+          animation: dots 4s 1900ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(18) {
+  -webkit-animation: dots 4s 1900ms ease infinite;
+          animation: dots 4s 1900ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(18) {
+  -webkit-animation: dots 4s 1900ms ease infinite;
+          animation: dots 4s 1900ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(1) g circle:nth-child(19) {
+  -webkit-animation: dots 4s 1950ms ease infinite;
+          animation: dots 4s 1950ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(2) g circle:nth-child(19) {
+  -webkit-animation: dots 4s 1950ms ease infinite;
+          animation: dots 4s 1950ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(3) g circle:nth-child(19) {
+  -webkit-animation: dots 4s 1950ms ease infinite;
+          animation: dots 4s 1950ms ease infinite;
+}
+
+#redblocksparticles g:nth-child(4) g circle:nth-child(19) {
+  -webkit-animation: dots 4s 1950ms ease infinite;
+          animation: dots 4s 1950ms ease infinite;
+}
+
+@-webkit-keyframes glow {
+  0%, 45% {
+    opacity: 0;
+  }
+  60%, 100% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes glow {
+  0%, 45% {
+    opacity: 0;
+  }
+  60%, 100% {
+    opacity: 0.35;
+  }
+}
+@-webkit-keyframes dots {
+  0%, 35% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  60%, 80% {
+    transform: translate(55px, -35px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(55px, -35px);
+    opacity: 0;
+  }
+}
+@keyframes dots {
+  0%, 35% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  60%, 80% {
+    transform: translate(55px, -35px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(55px, -35px);
+    opacity: 0;
+  }
+}
+#purplebg > :nth-child(1) {
+  -webkit-animation: up 2s 500ms ease infinite alternate;
+          animation: up 2s 500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(2) {
+  -webkit-animation: up 2s 1000ms ease infinite alternate;
+          animation: up 2s 1000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(3) {
+  -webkit-animation: up 2s 1500ms ease infinite alternate;
+          animation: up 2s 1500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(4) {
+  -webkit-animation: up 2s 2000ms ease infinite alternate;
+          animation: up 2s 2000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(5) {
+  -webkit-animation: up 2s 2500ms ease infinite alternate;
+          animation: up 2s 2500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(6) {
+  -webkit-animation: up 2s 3000ms ease infinite alternate;
+          animation: up 2s 3000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(7) {
+  -webkit-animation: up 2s 3500ms ease infinite alternate;
+          animation: up 2s 3500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(8) {
+  -webkit-animation: up 2s 4000ms ease infinite alternate;
+          animation: up 2s 4000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(9) {
+  -webkit-animation: up 2s 4500ms ease infinite alternate;
+          animation: up 2s 4500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(10) {
+  -webkit-animation: up 2s 5000ms ease infinite alternate;
+          animation: up 2s 5000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(11) {
+  -webkit-animation: up 2s 5500ms ease infinite alternate;
+          animation: up 2s 5500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(12) {
+  -webkit-animation: up 2s 6000ms ease infinite alternate;
+          animation: up 2s 6000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(13) {
+  -webkit-animation: up 2s 6500ms ease infinite alternate;
+          animation: up 2s 6500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(14) {
+  -webkit-animation: up 2s 7000ms ease infinite alternate;
+          animation: up 2s 7000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(15) {
+  -webkit-animation: up 2s 7500ms ease infinite alternate;
+          animation: up 2s 7500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(16) {
+  -webkit-animation: up 2s 8000ms ease infinite alternate;
+          animation: up 2s 8000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(17) {
+  -webkit-animation: up 2s 8500ms ease infinite alternate;
+          animation: up 2s 8500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(18) {
+  -webkit-animation: up 2s 9000ms ease infinite alternate;
+          animation: up 2s 9000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(19) {
+  -webkit-animation: up 2s 9500ms ease infinite alternate;
+          animation: up 2s 9500ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(20) {
+  -webkit-animation: up 2s 10000ms ease infinite alternate;
+          animation: up 2s 10000ms ease infinite alternate;
+}
+
+#purplebg > :nth-child(21) {
+  -webkit-animation: up 2s 10500ms ease infinite alternate;
+          animation: up 2s 10500ms ease infinite alternate;
+}
+
+@-webkit-keyframes up {
+  to {
+    transform: translate(0, -25px);
+  }
+}
+
+@keyframes up {
+  to {
+    transform: translate(0, -25px);
+  }
+}
+#bottomparticles > :nth-child(1) {
+  -webkit-animation: particles 4s 300ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 300ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(1) {
+  -webkit-animation: particles 4s 300ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 300ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(1) {
+  -webkit-animation: particles 4s 300ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 300ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(2) {
+  -webkit-animation: particles 4s 600ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 600ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(2) {
+  -webkit-animation: particles 4s 600ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 600ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(2) {
+  -webkit-animation: particles 4s 600ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 600ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(3) {
+  -webkit-animation: particles 4s 900ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 900ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(3) {
+  -webkit-animation: particles 4s 900ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 900ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(3) {
+  -webkit-animation: particles 4s 900ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 900ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(4) {
+  -webkit-animation: particles 4s 1200ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1200ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(4) {
+  -webkit-animation: particles 4s 1200ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1200ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(4) {
+  -webkit-animation: particles 4s 1200ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1200ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(5) {
+  -webkit-animation: particles 4s 1500ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1500ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(5) {
+  -webkit-animation: particles 4s 1500ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1500ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(5) {
+  -webkit-animation: particles 4s 1500ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1500ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(6) {
+  -webkit-animation: particles 4s 1800ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1800ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(6) {
+  -webkit-animation: particles 4s 1800ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1800ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(6) {
+  -webkit-animation: particles 4s 1800ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 1800ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(7) {
+  -webkit-animation: particles 4s 2100ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2100ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(7) {
+  -webkit-animation: particles 4s 2100ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2100ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(7) {
+  -webkit-animation: particles 4s 2100ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2100ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(8) {
+  -webkit-animation: particles 4s 2400ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2400ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(8) {
+  -webkit-animation: particles 4s 2400ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2400ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(8) {
+  -webkit-animation: particles 4s 2400ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2400ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(9) {
+  -webkit-animation: particles 4s 2700ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2700ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(9) {
+  -webkit-animation: particles 4s 2700ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2700ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(9) {
+  -webkit-animation: particles 4s 2700ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 2700ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(10) {
+  -webkit-animation: particles 4s 3000ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3000ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(10) {
+  -webkit-animation: particles 4s 3000ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3000ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(10) {
+  -webkit-animation: particles 4s 3000ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3000ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(11) {
+  -webkit-animation: particles 4s 3300ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3300ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(11) {
+  -webkit-animation: particles 4s 3300ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3300ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(11) {
+  -webkit-animation: particles 4s 3300ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3300ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles > :nth-child(12) {
+  -webkit-animation: particles 4s 3600ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3600ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#bottomparticles2 > :nth-child(12) {
+  -webkit-animation: particles 4s 3600ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3600ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+#redglowparticles > :nth-child(12) {
+  -webkit-animation: particles 4s 3600ms ease infinite alternate, p 2s ease infinite alternate;
+          animation: particles 4s 3600ms ease infinite alternate, p 2s ease infinite alternate;
+}
+
+@-webkit-keyframes p {
+  85%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes p {
+  85%, 100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes particles {
+  0%, 100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(10px, 15px);
+  }
+}
+@keyframes particles {
+  0%, 100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(10px, 15px);
+  }
+}
+.particlespoly {
+  -webkit-animation: p 2s ease infinite alternate;
+          animation: p 2s ease infinite alternate;
+}
+
+#d-app g:nth-child(1) {
+  -webkit-animation: updown 2s 200ms ease-in-out infinite alternate;
+          animation: updown 2s 200ms ease-in-out infinite alternate;
+}
+
+#d-app g:nth-child(2) {
+  -webkit-animation: updown 2s 400ms ease-in-out infinite alternate;
+          animation: updown 2s 400ms ease-in-out infinite alternate;
+}
+
+#d-app g:nth-child(3) {
+  -webkit-animation: updown 2s 600ms ease-in-out infinite alternate;
+          animation: updown 2s 600ms ease-in-out infinite alternate;
+}
+
+#d-apps2 g:nth-child(1) {
+  -webkit-animation: updown 2s 200ms ease-in-out infinite alternate;
+          animation: updown 2s 200ms ease-in-out infinite alternate;
+}
+
+#d-apps2 g:nth-child(2) {
+  -webkit-animation: updown 2s 400ms ease-in-out infinite alternate;
+          animation: updown 2s 400ms ease-in-out infinite alternate;
+}
+
+#d-apps2 g:nth-child(3) {
+  -webkit-animation: updown 2s 600ms ease-in-out infinite alternate;
+          animation: updown 2s 600ms ease-in-out infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(1) {
+  -webkit-animation: updown 2s 50ms ease infinite alternate;
+          animation: updown 2s 50ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(2) {
+  -webkit-animation: updown 2s 100ms ease infinite alternate;
+          animation: updown 2s 100ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(3) {
+  -webkit-animation: updown 2s 150ms ease infinite alternate;
+          animation: updown 2s 150ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(4) {
+  -webkit-animation: updown 2s 200ms ease infinite alternate;
+          animation: updown 2s 200ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(5) {
+  -webkit-animation: updown 2s 250ms ease infinite alternate;
+          animation: updown 2s 250ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(6) {
+  -webkit-animation: updown 2s 300ms ease infinite alternate;
+          animation: updown 2s 300ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(7) {
+  -webkit-animation: updown 2s 350ms ease infinite alternate;
+          animation: updown 2s 350ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(8) {
+  -webkit-animation: updown 2s 400ms ease infinite alternate;
+          animation: updown 2s 400ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(9) {
+  -webkit-animation: updown 2s 450ms ease infinite alternate;
+          animation: updown 2s 450ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(10) {
+  -webkit-animation: updown 2s 500ms ease infinite alternate;
+          animation: updown 2s 500ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(11) {
+  -webkit-animation: updown 2s 550ms ease infinite alternate;
+          animation: updown 2s 550ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(12) {
+  -webkit-animation: updown 2s 600ms ease infinite alternate;
+          animation: updown 2s 600ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(13) {
+  -webkit-animation: updown 2s 650ms ease infinite alternate;
+          animation: updown 2s 650ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(14) {
+  -webkit-animation: updown 2s 700ms ease infinite alternate;
+          animation: updown 2s 700ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(15) {
+  -webkit-animation: updown 2s 750ms ease infinite alternate;
+          animation: updown 2s 750ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(16) {
+  -webkit-animation: updown 2s 800ms ease infinite alternate;
+          animation: updown 2s 800ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(17) {
+  -webkit-animation: updown 2s 850ms ease infinite alternate;
+          animation: updown 2s 850ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(18) {
+  -webkit-animation: updown 2s 900ms ease infinite alternate;
+          animation: updown 2s 900ms ease infinite alternate;
+}
+
+#d-apps2wrapper g:nth-child(3) g > circle:nth-child(19) {
+  -webkit-animation: updown 2s 950ms ease infinite alternate;
+          animation: updown 2s 950ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(1) {
+  -webkit-animation: updown 2s 50ms ease infinite alternate;
+          animation: updown 2s 50ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(2) {
+  -webkit-animation: updown 2s 100ms ease infinite alternate;
+          animation: updown 2s 100ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(3) {
+  -webkit-animation: updown 2s 150ms ease infinite alternate;
+          animation: updown 2s 150ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(4) {
+  -webkit-animation: updown 2s 200ms ease infinite alternate;
+          animation: updown 2s 200ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(5) {
+  -webkit-animation: updown 2s 250ms ease infinite alternate;
+          animation: updown 2s 250ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(6) {
+  -webkit-animation: updown 2s 300ms ease infinite alternate;
+          animation: updown 2s 300ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(7) {
+  -webkit-animation: updown 2s 350ms ease infinite alternate;
+          animation: updown 2s 350ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(8) {
+  -webkit-animation: updown 2s 400ms ease infinite alternate;
+          animation: updown 2s 400ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(9) {
+  -webkit-animation: updown 2s 450ms ease infinite alternate;
+          animation: updown 2s 450ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(10) {
+  -webkit-animation: updown 2s 500ms ease infinite alternate;
+          animation: updown 2s 500ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(11) {
+  -webkit-animation: updown 2s 550ms ease infinite alternate;
+          animation: updown 2s 550ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(12) {
+  -webkit-animation: updown 2s 600ms ease infinite alternate;
+          animation: updown 2s 600ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(13) {
+  -webkit-animation: updown 2s 650ms ease infinite alternate;
+          animation: updown 2s 650ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(14) {
+  -webkit-animation: updown 2s 700ms ease infinite alternate;
+          animation: updown 2s 700ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(15) {
+  -webkit-animation: updown 2s 750ms ease infinite alternate;
+          animation: updown 2s 750ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(16) {
+  -webkit-animation: updown 2s 800ms ease infinite alternate;
+          animation: updown 2s 800ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(17) {
+  -webkit-animation: updown 2s 850ms ease infinite alternate;
+          animation: updown 2s 850ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(18) {
+  -webkit-animation: updown 2s 900ms ease infinite alternate;
+          animation: updown 2s 900ms ease infinite alternate;
+}
+
+#d-appswrapper g:nth-child(2) g > circle:nth-child(19) {
+  -webkit-animation: updown 2s 950ms ease infinite alternate;
+          animation: updown 2s 950ms ease infinite alternate;
+}
+
+@-webkit-keyframes updown {
+  100% {
+    transform: translate(0, -20px);
+  }
+}
+
+@keyframes updown {
+  100% {
+    transform: translate(0, -20px);
+  }
+}
+#Layer_1 > g:nth-child(2) > g:nth-child(18) > g:nth-child(12) {
+  -webkit-animation: arrows 1s ease-in-out infinite alternate, p 2s ease infinite alternate;
+          animation: arrows 1s ease-in-out infinite alternate, p 2s ease infinite alternate;
+}
+
+@-webkit-keyframes arrows {
+  to {
+    transform: translate(25px, 25px);
+  }
+}
+
+@keyframes arrows {
+  to {
+    transform: translate(25px, 25px);
+  }
+}
+#Layer_1 > g:nth-child(2) > g:nth-child(17) > g:nth-child(13) {
+  -webkit-animation: arrows2 1s ease-in-out infinite alternate, p 2s ease infinite alternate;
+          animation: arrows2 1s ease-in-out infinite alternate, p 2s ease infinite alternate;
+}
+
+@-webkit-keyframes arrows2 {
+  to {
+    transform: translate(-25px, -25px);
+  }
+}
+
+@keyframes arrows2 {
+  to {
+    transform: translate(-25px, -25px);
+  }
+}
+#Layer_1 > g:nth-child(2) > g:nth-child(17) > g:nth-child(12) {
+  -webkit-animation: arrows 1s ease-in-out infinite alternate, p 2s ease infinite alternate;
+          animation: arrows 1s ease-in-out infinite alternate, p 2s ease infinite alternate;
+} 
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width:100%;
+}
+}
+
+/* circut */
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}
+@keyframes drawPath {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.circuit-no-fill,
+.circuits,
+.circuit-top-group {
+  margin: 20px;
+  width: 100px;
+}
+.circuit-no-fill1{
+  transform: rotate(270deg) !important;
+}
+.circuit-no-fill2{
+  transform: rotatez(90deg) rotatey(180deg) !important;
+}
+.circuit-no-fill {
+  transform: rotate(90deg);
+  fill: none;
+  stroke: rgb(28, 59, 76);
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke-width: 2px;
+  stroke-miterlimit: 10;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: dash;
+  animation-timing-function: ease-in-out;
+}
+
+/* animated blocks */
+.sample-item-1 {
+  background-color: #cad3eb;
+  height: 150px;
+  min-width: 200px;
+  width: 200px;
+}
+
+.sample-item-2 {
+  background-color: #a5b6e6;
+  height: 200px;
+  min-width: 150px;
+  width: 150px;
+}
+
+.sample-item-3 {
+  background-color: #3978a5;
+  height: 125px;
+  min-width: 225px;
+  width: 225px;
+}
+
+.horizontal-scrolling-banner {
+  overflow: hidden;
+}
+
+.horizontal-scrolling-banner__helper-wrapper {
+  align-items: center;
+  display: flex;
+  left: 0;
+  transform: translateZ(0);
+  transition-property: left;
+  transition-timing-function: linear;
+  position: relative;
+}
+ul.roadmap {
+  display: grid;
+  grid-template-columns: 0.25rem 1fr;
+  grid-auto-columns: max-content;
+  column-gap: 2rem;
+  list-style: none;
+  width: min(60rem, 90%);
+  margin-inline: auto;
+  padding: 0px;
+}
+
+/* line */
+ul.roadmap::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 20;
+  background: rgb(49, 108, 145);
+  border-radius: calc(0.25rem / 2);
+}
+
+/* columns*/
+
+/* row gaps */
+ul.roadmap li:not(:last-child) {
+  margin-bottom:2rem;
+}
+
+/* card */
+ul.roadmap li {
+  grid-column: 2;
+  margin-inline:1.5rem;
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+}
+
+/* date */
+ul.roadmap li .date {
+  height:3rem;
+  margin-inline: calc(1.5rem * -1);
+
+  text-align: center;
+  background-color:#edc190;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  display: grid;
+  place-content: center;
+  position: relative;
+
+  border-radius: calc(3rem / 2) 0 0 calc(3rem / 2);
+}
+
+/* date flap */
+ul.roadmap li .date::before {
+  content: "";
+  width:1.5rem;
+  aspect-ratio: 1;
+  background: #f05454;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+  position: absolute;
+  top: 100%;
+
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  right: 0;
+}
+
+/* circle */
+ul.roadmap li .date::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  aspect-ratio: 1;
+  background:#f4f7ff;
+  border: 0.3rem solid rgb(93, 93, 164);
+  border-radius: 50%;
+  top: 50%;
+
+  transform: translate(50%, -50%);
+  right: calc(100% + 2rem + 0.25rem / 2);
+}
+
+/* title descr */
+ul.roadmap li .title,
+ul.roadmap li .descr {
+  background:#f4f7ff;
+  position: relative;
+  padding-inline: 1.5rem;
+}
+ul.roadmap li .title {
+  overflow: hidden;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1rem;
+  font-weight: 500;
+}
+ul.roadmap li .descr {
+  padding-block-end: 1.5rem;
+  font-weight: 300;
+}
+
+/* shadows */
+ul.roadmap li .title::before,
+ul.roadmap .descr::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  border-radius: 50%;
+  filter: blur(4px);
+  transform: translate(-50%, 50%);
+}
+ul.roadmap li .title::before {
+  bottom: calc(100% + 0.125rem);
+}
+
+ul.roadmap li .descr::before {
+  z-index: -1;
+  bottom: 0.25rem;
+}
+
+@media (min-width: 40rem) {
+ul.roadmap {
+    grid-template-columns: 1fr 0.25rem 1fr;
+  }
+ ul.roadmap::before {
+    grid-column: 2;
+  }
+  ul.roadmap li:nth-child(odd) {
+    grid-column: 1;
+  }
+  ul.roadmap li:nth-child(even) {
+    grid-column: 3;
+  }
+
+  /* start second card */
+  ul.roadmap li:nth-child(2) {
+    grid-row: 2/4;
+  }
+
+ ul.roadmap li:nth-child(odd) .date::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    left: 0;
+  }
+
+  ul.roadmap li:nth-child(odd) .date::after {
+    transform: translate(-50%, -50%);
+    left: calc(100% + 2rem + 0.25rem / 2);
+  }
+  ul.roadmap li:nth-child(odd) .date {
+    border-radius: 0 calc(3rem / 2) calc(3rem / 2) 0;
+  }
+}
+.custom-shape-divider-top-1681849203 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1681849203 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height:350px;
+}
+
+.custom-shape-divider-top-1681849203 .shape-fill {
+    fill:#8abee3;
+}
+.infoGraphic-cover-Utilities{
+  position: relative;
+  height: 400px;
+}
+.infoGraphic-cover-Utilities h2{
+  position: relative;
+  z-index: 1;
+  color:#000000;
+  text-align:left !important;
+}
+.animated-gif {
+    height: 300px;
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 0px
+    }
+ul.infoGraphic {
+  line-height: 1;
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+ul.infoGraphic li {
+  position: relative;
+  width: 100%;
+  max-width: 25em;
+  background:#f4f7ff;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  z-index: 1;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+ul.infoGraphic li .numberWrap {
+  position: absolute;
+}
+ul.infoGraphic li .number {
+  font-family: "maven pro", sans-serif;
+  font-size: 13em;
+  font-weight: 900;
+  width: 0.9em;
+  text-align: center;
+}
+ul.infoGraphic li .number.fontColor1 {
+  color:#00b9c0;
+}
+ul.infoGraphic li .number.fontColor2 {
+  color:#00b9c0;
+}
+ul.infoGraphic li .number.fontColor3 {
+  color:#00b9c0;
+}
+ul.infoGraphic li .number.fontColor4 {
+  color:#00b9c0;
+}
+ul.infoGraphic li .number.fontColor5 {
+  color:#00b9c0;
+}
+ul.infoGraphic li .number.fontColor6 {
+  color:#00b9c0;
+}
+ul.infoGraphic li .coverWrap {
+  transform: rotate(130deg);
+  position: absolute;
+  width: 18em;
+  height: 15em;
+  left: -3em;
+  top: -1em;
+}
+ul.infoGraphic li .coverWrap .numberCover {
+  position: absolute;
+  background:#f4f7ff;
+  width: 18em;
+  height: 6em;
+  border-radius: 50% 50% 0 0;
+  border-bottom: 3px solid #99d6c2;
+  transition: all 0.4s;
+}
+ul.infoGraphic li .coverWrap .numberCover::before {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  left: 4em;
+  right: 4em;
+  top: 5em;
+  box-shadow: 0 0 30px 17px #243c5477;
+  border-radius: 100px/10px;
+  z-index: -1;
+}
+ul.infoGraphic li .coverWrap .numberCover::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  left: -10%;
+  width: 120%;
+  height: 150%;
+  background: radial-gradient(at bottom, #48668533, transparent, transparent);
+  z-index: 1;
+}
+ul.infoGraphic li .content {
+  margin: 8em 3em 1em 7em;
+  position: relative;
+}
+ul.infoGraphic li .content h2 {
+  font-size: 1.7em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+ul.infoGraphic li .content p {
+  line-height: 1.5em;
+}
+
+ul.infoGraphic li:hover .coverWrap .numberCover {
+  border-radius: 100%;
+}
+.icon {
+  text-align: center;
+  margin-top: -48px;
+}
+.icon img{
+ width:50px;
+ margin-bottom: 10px;
+}
+.integrated-blockchain{
+
+}
+.integrated-blockchain ul {
+  width:100%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  justify-content: center;
+  gap:1rem;
+  list-style: none;
+  padding: 0px;
+}
+
+.integrated-blockchain ul li {
+  max-width: 12rem;
+  justify-self: center;
+  display: grid;
+  grid-template:
+    "icon"
+    "line"
+    "dot"
+    "title"
+    "descr" 1fr;
+  justify-items: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.integrated-blockchain ul li .icon {
+  grid-area: icon;
+  width: 6rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 2.5rem;
+  border: 0.4rem solid #f0f2f9;
+  border-radius: 50%;
+  background: var(--accent-color);
+  box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.45),
+    inset -0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.45);
+    margin-top: 0px;
+    padding:15px;
+}
+.integrated-blockchain ul li .icon img{
+  width: 100%;
+  margin:0px;
+}
+.integrated-blockchain ul li:nth-child(1) .icon{
+  background:#3296e1;
+}
+.integrated-blockchain ul li:nth-child(2) .icon{
+  background:#4a4a4a;
+}
+.integrated-blockchain ul li:nth-child(3) .icon{
+  background:#27455c;
+}
+.integrated-blockchain ul li:nth-child(4) .icon{
+  background:#5134a1;
+}
+.integrated-blockchain ul li:nth-child(5) .icon{
+  background:#994D7F;
+}
+.integrated-blockchain ul li:nth-child(6) .icon{
+  background:#08a0a7;
+}
+.integrated-blockchain ul li:nth-child(7) .icon{
+  background:#ff4747;
+}
+.integrated-blockchain ul li::before {
+  content: "";
+  grid-area: line;
+  height: 2rem;
+  border-right: 2px dotted currentColor;
+}
+
+.integrated-blockchain ul li::after {
+  content: "";
+  grid-area: dot;
+  width: 1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent-color);
+  justify-self: center;
+  margin-bottom: 0.5rem;
+}
+.integrated-blockchain ul li:nth-child(1)::after{
+ background:#3296e1;
+}
+.integrated-blockchain ul li:nth-child(2)::after{
+background:#4a4a4a;
+}
+.integrated-blockchain ul li:nth-child(3)::after{
+    background:#27455c;
+}
+.integrated-blockchain ul li:nth-child(4)::after{
+  background:#5134a1;
+}
+.integrated-blockchain ul li:nth-child(5)::after{
+   background:#994D7F;
+}
+.integrated-blockchain ul li:nth-child(6)::after{
+  background:#08a0a7;
+}
+.integrated-blockchain ul li:nth-child(7)::after{
+    background:#ff4747;
+}
+.integrated-blockchain ul li .title {
+  grid-area: title;
+  margin-block: 0.5rem;
+  font-size:1rem;
+  font-weight:400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media(max-width:968px){
+  video{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    width:auto;
+    height: 100%;
+}
+}
+@media(max-width:768px){
+  .animated-gif {
+    height: 200px;
+    right: 0px;
+    top: 30px;
+}
+  a.btn-join-now{
+    padding: 12px 18px 8px;
+  }
+  .join-item .number{
+    width:60px;
+    flex: 0 0 60px;
+  }
+  .custom-item .sub-item {
+    padding: 15px 10px 10px;
+  }
+  .custom-item {
+    padding: 0px;
+}
+.owl-carousel.owl-carousel1{
+  padding:0px 20px;
+}
+.owl-carousel.owl-drag .owl-item.active.center .custom-item{
+  margin-top: 0px;
+}
+.circuit-no-fill {
+    transform: scale(0.60) rotate(90deg) !important;
+}
+.bar-icon2{
+  right: 0px;
+}
+.bar-icon6{
+  right: 0px;
+}
+.bar-icon7 {
+    position: absolute;
+    right: 100px;
+    top: -70px;
+    }
+.bar-icon8 {
+    right: -18px;
+    top: -38px;
+}
+.bar-icon11 {
+    top: 30px;
+    }
+    .bar-icon12 {
+    top: -80px;
+  }
+  .bar-icon10 {
+    top: -40px;
+  }
+  .bar-icon14 {
+    top: 92px;
+  }
+  .bar-icon4{
+    bottom: 200px;
+  }
+.owl-prev, .owl-next{
+  height: 40px;
+    width: 40px;
+}
+.owl-prev::after, .owl-next::after {
+    width: 20px;
+    height: 20px;
+    border: 5px solid #b4c6d5;
+    margin-top: 0px;
+}
+.owl-prev::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-left: 10px;
+}
+.owl-next::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-left: 10px;
+}
+.owl-prev {
+    left: -35px;
+}
+.owl-next {
+    right: -35px;
+}
+.owl-next:hover {
+    margin:0px;
+}
+.owl-prev:hover {
+    margin:0px;
+}
+.bar-icon{
+  width:35px !important;
+}
+.para-content {
+    padding-left: 25px;
+    }
+    #mainSVG{
+      transform:scale(.7);
+      top: -286px;
+      right: -122px;
+    }
+    .why-join{
+      margin-bottom: 100px !important;
+    }
+    .section-padding.features{
+      padding-bottom: 0px !important;
+    }
+    .join-section{
+      overflow: hidden;
+      padding-top:90px;
+    }
+    #Layer_1{
+    margin-top: -120px;
+    }
+    .circuit-no-fill1 {
+    margin-top: -400px !important;
+    }
+    .circuit-no-fill2{
+      display: none;
+    }
+    .introduction{
+    margin-top:-60px;
+    }
+    .bar-icon13{
+      z-index: -1;
+    }
+    .bar-icon9 {
+    top: -40px;
+  }
+}
